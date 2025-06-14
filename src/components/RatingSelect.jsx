@@ -3,7 +3,7 @@ function RatingSelect({ select, selected }) {
   // also no real need for useEffect or context
   // useEffect(() => {
   //   select(feedbackEdit.item.rating)
-  // }, [feedbackEdit])
+  // }, [feedbackEdit]) xggrhfjy
 
   const handleChange = (e) => {
     select(+e.currentTarget.value)
